@@ -1,3 +1,4 @@
+bump_version: null
 lint:
   files_exist:
   - CODE_OF_CONDUCT.md
@@ -20,8 +21,17 @@ lint:
   - manifest.name
   - manifest.homePage
 nf_core_version: 2.14.1
+org_path: null
 repository_type: pipeline
 template:
-  prefix: mirpedrol
-  skip:
+  author: mirpedrol
+  description: this is a custom non-nf-core pipeline to run regular sync
+  force: false
+  is_nfcore: null
+  name: customnonnfcoresync
+  org: mirpedrol
+  outdir: /Users/jmir/Work/TEST/mirpedrol-customnonnfcoresync
+  skip_features:
   - igenomes
+  version: 1.0dev
+update: null
