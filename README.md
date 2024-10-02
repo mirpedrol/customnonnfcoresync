@@ -1,5 +1,3 @@
-
-
 # mirpedrol/customnonnfcoresync
 
 [![GitHub Actions CI Status](https://github.com/mirpedrol/customnonnfcoresync/actions/workflows/ci.yml/badge.svg)](https://github.com/mirpedrol/customnonnfcoresync/actions/workflows/ci.yml)
