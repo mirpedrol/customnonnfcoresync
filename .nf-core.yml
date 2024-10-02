@@ -20,17 +20,17 @@ lint:
   nextflow_config:
   - manifest.name
   - manifest.homePage
-nf_core_version: 2.14.1
+nf_core_version: 2.14.2.dev0
 org_path: null
 repository_type: pipeline
 template:
   author: mirpedrol
   description: this is a custom non-nf-core pipeline to run regular sync
   force: false
-  is_nfcore: null
+  is_nfcore: false
   name: customnonnfcoresync
   org: mirpedrol
-  outdir: /Users/jmir/Work/TEST/mirpedrol-customnonnfcoresync
+  outdir: .
   skip_features:
   - igenomes
   version: 1.0dev
