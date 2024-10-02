@@ -1,27 +1,37 @@
+bump_version: null
 lint:
   files_exist:
-  - CODE_OF_CONDUCT.md
-  - assets/nf-core-customnonnfcoresync_logo_light.png
-  - docs/images/nf-core-customnonnfcoresync_logo_light.png
-  - docs/images/nf-core-customnonnfcoresync_logo_dark.png
-  - .github/ISSUE_TEMPLATE/config.yml
-  - .github/workflows/awstest.yml
-  - .github/workflows/awsfulltest.yml
-  - conf/igenomes.config
+    - CODE_OF_CONDUCT.md
+    - assets/nf-core-customnonnfcoresync_logo_light.png
+    - docs/images/nf-core-customnonnfcoresync_logo_light.png
+    - docs/images/nf-core-customnonnfcoresync_logo_dark.png
+    - .github/ISSUE_TEMPLATE/config.yml
+    - .github/workflows/awstest.yml
+    - .github/workflows/awsfulltest.yml
+    - conf/igenomes.config
   files_unchanged:
-  - CODE_OF_CONDUCT.md
-  - assets/nf-core-customnonnfcoresync_logo_light.png
-  - docs/images/nf-core-customnonnfcoresync_logo_light.png
-  - docs/images/nf-core-customnonnfcoresync_logo_dark.png
-  - .github/ISSUE_TEMPLATE/bug_report.yml
+    - CODE_OF_CONDUCT.md
+    - assets/nf-core-customnonnfcoresync_logo_light.png
+    - docs/images/nf-core-customnonnfcoresync_logo_light.png
+    - docs/images/nf-core-customnonnfcoresync_logo_dark.png
+    - .github/ISSUE_TEMPLATE/bug_report.yml
   multiqc_config:
-  - report_comment
+    - report_comment
   nextflow_config:
-  - manifest.name
-  - manifest.homePage
-nf_core_version: 2.14.1
+    - manifest.name
+    - manifest.homePage
+nf_core_version: 2.14.2.dev0
+org_path: null
 repository_type: pipeline
 template:
-  prefix: mirpedrol
-  skip:
-  - igenomes
+  author: mirpedrol
+  description: this is a custom non-nf-core pipeline to run regular sync
+  force: false
+  is_nfcore: false
+  name: customnonnfcoresync
+  org: mirpedrol
+  outdir: .
+  skip_features:
+    - igenomes
+  version: 1.0dev
+update: null
